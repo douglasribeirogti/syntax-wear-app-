@@ -51,3 +51,13 @@
 body {
     font-family: var(--font-display); 
 }
+
+/* Esconde scrolbar para navegadores WebKit (Chrome, Safari) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Esconde scrolbar para navegadores Firefox */
+.scrollbar-hide {
+    scrollbar-width: none;
+}
