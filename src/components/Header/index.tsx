@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import Logo from "@/assets/images/logo.png";
+=======
+import Logo from "@/assets/images/Logo.png";
+>>>>>>> 5133ce810d3b5c0a4a86ba892e1c0bdff8f436bb
 import IconUser from "@/assets/images/icon-user.png";
 import IconAbout from "@/assets/images/icon-about.png";
 import IconCart from "@/assets/images/icon-cart.png";
@@ -7,8 +11,13 @@ export const Header = () => {
   return (
     <div className="relative">
       <header className="fixed top-10 left-0 right-0 z-10 mx-10">
+<<<<<<< HEAD
         <div className="bg-white max-w-[1320px] mx-auto flex justify-between items-center py-3 px-7 rounded-2xl mt-5">
           <img src={Logo} alt="Logo SyntaxWear" className="w-32 md:w-36"/>
+=======
+        <div className="bg-white max-w-\[1320px\] mx-auto flex justify-between items-center py-3 px-7 rounded-2xl mt-5">
+          <img src={Logo} alt="Logo SyntaxWear" className="w-32 md:w-36" />
+>>>>>>> 5133ce810d3b5c0a4a86ba892e1c0bdff8f436bb
 
           <nav className="hidden md:block">
             <ul className="flex gap-10">
@@ -33,6 +42,7 @@ export const Header = () => {
                 <a href="#">Sobre</a>
               </li>
               <li>
+<<<<<<< HEAD
                 <a href="#"><img src={IconUser} alt="Ícone de login" /></a>
               </li>
               <li>
@@ -40,6 +50,21 @@ export const Header = () => {
               </li>
               <li>
                 <a href="#"><img src={IconCart} alt="Ícone de carrinho" /></a>
+=======
+                <a href="#">
+                  <img src={IconUser} alt="Ícone de login" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src={IconAbout} alt="Ícone de sobre" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src={IconCart} alt="Ícone de carrinho" />
+                </a>
+>>>>>>> 5133ce810d3b5c0a4a86ba892e1c0bdff8f436bb
               </li>
             </ul>
           </nav>
